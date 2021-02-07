@@ -8,6 +8,7 @@ Using QUT CAB202 C Graphics library to create a simulation of a roomba cleaning 
   - displays battery % of vacuum, time elapsed, current load in vacuum & total number of trash on screen
   - key shortcuts to pause, quit & reset simulation, tell vacuum to return to base, drop a piece of trash on screen, move vacuum to a specified location as well as change load & battery level of the vacuum
   - simulation behaviour based on certain conditions i.e. when the vacuum battery = 0, the game is paused & game over screen is displayed
+  
 `trashRestart.c` contains sprites for 3 different types of trash, as well as functions for:
   - clearing sprites off screen (when collected by vacuum)
   - drawing a certain number of each trash type
