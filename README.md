@@ -2,7 +2,7 @@
 Using QUT CAB202 C Graphics library to create a simulation of a roomba cleaning trash off the floor.
 
 `coll.c` contains code relating to pixel collision with several sprites\
-`helpers.c` contains a small collection of helper functions to draw rectangles, formatted lines and sprites, obtain input (char & int) and erase rows if needed.\
+`helpers.c` contains a small collection of helper functions to draw rectangles, formatted lines and sprites, obtain input (char & int) and erase rows if needed.
 
 `Scratch.c` contains the main code so that all components can interact with one another
   - displays battery % of vacuum, time elapsed, current load in vacuum & total number of trash on screen
