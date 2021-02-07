@@ -1,5 +1,5 @@
 # CAB202Vacuum
-Using C Graphics to create a simulation of a roomba cleaning trash off the floor.
+Using QUT CAB202 C Graphics library to create a simulation of a roomba cleaning trash off the floor.
 
 `coll.c` contains code relating to pixel collision with several sprites\
 `helpers.c` contains a small collection of helper functions to draw rectangles, formatted lines and sprites, obtain input (char & int) and erase rows if needed.\
@@ -22,5 +22,7 @@ Using C Graphics to create a simulation of a roomba cleaning trash off the floor
   - manual vacuum movement with 'jkli' keys
   - drawing base & vacuum on screen
   
-`coll.h`, `helpers.h`, `trash.h`, `vacuum.h` are helper files and contains function definitions to be used by other classes
-`makefile` executes object files, which are all used to run the simulation
+`coll.h`, `helpers.h`, `trash.h`, `vacuum.h` are helper files and contains function definitions to be used by other classes\
+`makefile` executes object files (i.e. coll.o, Scratch.o), which are all used to run the simulation
+
+`vacuum_test.bash` aides in testing expected behaviour of vacuum simulation. No manual input is required as inputs are provided in each test case. 
